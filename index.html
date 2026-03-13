@@ -3,10 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-import { LightLines } from “@/components/ui/light-lines”;
 
-export function Demo() {
-return (
   <div className=“relative w-full h-screen”>
     <LightLines>
       <div className=“flex items-center justify-center h-full”>
@@ -14,8 +11,7 @@ return (
       </div>
     </LightLines>
   </div>
-);
-}
+
 	
 <title>海雲館宿舍 官方網站</title>
 </head>
@@ -33,6 +29,20 @@ return (
             --accent-color: #f39c12; /* 橘色點綴 */
             --bg-color: #eaeaf7;
         }
+
+		body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display";
+
+background:
+radial-gradient(circle at 20% 20%,#4facfe,transparent 40%),
+radial-gradient(circle at 80% 30%,#00f2fe,transparent 40%),
+radial-gradient(circle at 50% 80%,#667eea,transparent 40%),
+#0f0f12;
+
+color:white;
+min-height:100vh;
+}
 
         body {
             margin: 0;
